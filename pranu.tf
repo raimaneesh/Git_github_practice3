@@ -2,10 +2,6 @@ resource "azurerm_resource_group" "rg1" {
   name     = "murga"
   location = "eastus"
 }
-resource "azurerm_resource_group" "rg2" {
-  name     = "surga"
-  location = "eastus"
-}
 resource "azurerm_resource_group" "rg3" {
   name     = "Nurga"
   location = "eastus"
